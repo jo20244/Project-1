@@ -10,7 +10,7 @@
 /* General Styles */
 
 body {
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     /* Generic project styles */
@@ -22,10 +22,13 @@ body {
 header {
     background-color:  #ffffff;
     padding: 0 1rem;
-    position:fixed
+    position: fixed;
     z-index: 99;
     width: 100%;
     box-shadow: 0 2px 2px #3a3a3a;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
 header a {
@@ -34,7 +37,7 @@ header a {
 }
 
 h1 {
-    font-family: "Oswald", sans-serif;
+    font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #252525;
@@ -45,7 +48,7 @@ h1 {
     list-style-type: none;
 }
 #menu > li {
-    margin-bottom: 1rem;
+    margin-bottom: 1em;
 } 
 .active {
     border-bottom: 1px solid #3a3a3a;
@@ -60,7 +63,12 @@ nav {
     padding: 0 1rem;
     box-shadow: 0 2px 2px #3a3a3a;
     display: none;
+    top: 100%;
 
+}
+/* Nav Toggle */
+#nav-toggle:checked~nav {
+    display: block;
 }
 
 /* Main Content */
