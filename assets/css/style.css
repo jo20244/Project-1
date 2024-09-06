@@ -118,10 +118,13 @@ main {
 /* Gallery Section */
 
 #photos img {
-    width: 80%;
+    width: 100%;
     line-height: 1em;
-    justify-content: space-evenly;
+    flex-flow: wrap;
+    justify-content: space-between;
     align-items: center;
+    padding-top: 400px;
+    border: 1px solid white;
 }
 
 #photos {
@@ -260,7 +263,7 @@ main {
 #benefits-personally,
 #benefits-socially {
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     width: 100%;
 }
 
