@@ -173,6 +173,37 @@ main {
     right: 50px;
 }
 
+/* Reasons to be a Member*/
+
+#reasons {    
+    margin: 20px auto;
+    width: 90%;
+}
+
+#reasons h2 {
+    font-size: 280%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#benefits-personally > div, #benefits-socially > div {
+    line-height: 20px;
+    margin-bottom: 20px;
+
+}
+
+#benefits hr {
+    border-top: 1px solid;
+    color: #3a3a3a;
+    margin: 5px 0;
+
+}
+
+#benefits p {
+    padding: 0 20px;
+}
+
+
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
     #menu a:hover{
