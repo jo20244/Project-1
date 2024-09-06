@@ -221,10 +221,54 @@ main {
     justify-content: center;
 }
 
+#benefits-personally,
+#benefits-socially {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#benefits-personally > div,
+#benefits-socially > div {
+    width: 75%;
+}
+
+#benefits-socially > div {
+    text-align: end;
+    align-self: flex-end;
+}
+
 
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
     #menu a:hover{
         border-bottom: 1px solid #3a3a3a;
  }
-} 
+ @media screen and (min-width: 1200px) {    
+    /* Reasons section */
+    #benefits {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #benefits > div {
+        flex: 1;
+    }
+
+    #benefits-image {
+        order: 0;
+    }
+
+    #benefits-socially {
+        order: 1;
+    }
+
+    #benefits-socially > div {
+        align-self: flex-start;
+    }
+
+    #benefits-personally > div  {
+        align-self: flex-end;
+    }
+}
+}
