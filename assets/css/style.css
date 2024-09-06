@@ -189,6 +189,8 @@ main {
 #benefits-personally > div, #benefits-socially > div {
     line-height: 20px;
     margin-bottom: 20px;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
 
 }
 
