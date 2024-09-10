@@ -223,7 +223,7 @@ main {
     text-align: center;
 }
 
-#benefits-personally > div, #benefits-socially > div {
+#benefits-personally > div {
     line-height: 20px;
     margin-bottom: 20px;
     flex-wrap: wrap;
@@ -233,8 +233,13 @@ main {
 }
 
 #benefits-socially > div {
-    padding-right: 0 200px;
-    margin-right: -40%;
+    line-height: 20px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    padding-left: -75px;
+    margin-right: -220px;
+    
 
 }
 
@@ -323,14 +328,22 @@ main {
     align-self: flex-end;
 }
 
-#buttons {
+/* Buttons */
 
-        background-color: #d2b48c;
+
+
+#buttons {
         color: rgb(56, 52, 43);
+        width: 100px;
+        height: 50px;
         padding: 5px 10px;
         border: none;
-        border-radius: 5px;
+        border-radius: 30px;
         cursor: pointer;
+        font-size: 50px; 
+        margin: 5px;
+        
+    
 }
 
 #buttons {
@@ -342,6 +355,11 @@ main {
     margin: 0 auto;
     width: 100px;
 }
+
+.btnbox buttons {
+    font-size: 5rem;
+}
+
 
 
 
