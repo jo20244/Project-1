@@ -228,6 +228,13 @@ main {
     margin-bottom: 20px;
     flex-wrap: wrap;
     flex-direction: column-reverse;
+    padding-left: 75px;
+
+}
+
+#benefits-socially > div {
+    padding-right: 0 200px;
+    margin-right: -40%;
 
 }
 
@@ -246,12 +253,14 @@ main {
     background: url('../images/benefits-image.jpg') no-repeat top center / cover;
     height: 30vw;
     width: 30vw;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     /* Makes the square picture into circle */
 
     border-radius: 50%;
     max-width: 300px;
     max-height: 300px;
+    padding: 160px;
+    margin-left: 20%;
 }
 
 #benefits-image {
@@ -260,22 +269,80 @@ main {
     justify-content: center;
 }
 
+#benefits-image2 {
+        max-width: 250px;
+        margin: 20px;
+        -webkit-clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+        clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+        transition: 1s;
+        height: 200px;
+    }
+    
+    #benefits-image2:hover {
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    }
+
+    #benefits-image3 {
+        max-width: 250px;
+        margin: 20px;
+        -webkit-clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+        clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+        transition: 1s;
+        height: 200px;
+    
+    }
+    
+    #benefits-image3:hover {
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    }
+
+
 #benefits-personally,
-#benefits-socially {
+#benefits-socially, #benefits-image {
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: row;
+    justify-content: center;
     width: 100%;
 }
 
 #benefits-personally > div,
 #benefits-socially > div {
-    width: 75%;
+    width: 50%;
+}
+
+#benefits-personally > div {
+    text-align: start;
+    align-self: flex-start;
+    width: 80%;
 }
 
 #benefits-socially > div {
     text-align: end;
     align-self: flex-end;
 }
+
+#buttons {
+
+        background-color: #d2b48c;
+        color: rgb(56, 52, 43);
+        padding: 5px 10px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+}
+
+#buttons {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    margin: 0 auto;
+    width: 100px;
+}
+
 
 
 /* Large devices (laptops and desktops, 992px and up) */
