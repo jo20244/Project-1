@@ -117,13 +117,30 @@ main {
 
 /* Gallery Section */
 
+.grid-container {
+    display: grid;
+    grid-template-columns: 200px 250px;
+    grid-auto-rows: minmax(150px, auto);
+    grid-row-gap: 5px;
+    grid-column-gap: 20px;
+    grid-template-areas: "header header";
+
+    
+
+}
+
+.grid-item-7 {
+    grid-area: header;
+}
+
+
 #photos img {
     width: 100%;
     line-height: 1em;
     flex-flow: wrap;
     justify-content: space-between;
     align-items: center;
-    padding-top: 400px;
+    padding-top: 80px;
     border: 1px solid white;
 }
 
