@@ -86,10 +86,7 @@ main {
     
      /* Make main element take up any surplus to push footer down */
      flex: 1 0 auto;
-     margin-top: 47px;
-     /* Enable flex properties for child elements */
-     display: flex;
-     flex-direction: column;   
+     margin-top: 47px;       
     }
 
     /* Hero */
@@ -169,10 +166,12 @@ main {
 
 }
 
-main {
+#signup {
     display: flex;
     height: 100hv;
     align-items: center;
+    justify-content: center;
+    padding-left: 50px;
     
 }
 
@@ -210,6 +209,57 @@ form h1 {
 
 ::placeholder {
     color: silver;
+}
+
+/* Newsletter */
+
+.container {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #ffffff;
+
+}
+
+.container p {
+    width: 600px;
+    margin: 40px;
+    font-size: 15px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.newsletter {
+    background: #3a3a3a;
+}
+
+.email-box {
+    height: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.email-box i {
+    background: black;
+    width: 40px;
+    line-height: 40px;
+}
+
+.tbox,.btn {
+    border: none;
+    outline: none;
+}
+
+.tbox {
+    width: 260px;
+    padding: 0 10px;
+}
+
+.btn {
+    background: black;
+    color: #ffffff;
+    padding: 0 10px;
+    cursor: pointer;
 }
 /* Footer */
 #social-networks {
@@ -275,8 +325,7 @@ form h1 {
 
      /* Push main content down to accomodate larger header */
      main { 
-        margin-top: 79px;
-        
+        margin-top: 79px;        
        }
        
        #photos {
