@@ -163,6 +163,8 @@ main {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background: url(../images/background-image.png);
+    background-size: 100%;
     
 
 }
@@ -171,8 +173,7 @@ main {
     display: flex;
     height: 100hv;
     align-items: center;
-    background: linear-gradient(rgba (0,0,0,0.2)), url("background-image.png");
-    background-size: cover;
+    
 }
 
 form {
@@ -275,7 +276,9 @@ form h1 {
      /* Push main content down to accomodate larger header */
      main { 
         margin-top: 79px;
+        
        }
+       
        #photos {
         column-count: 3;
         column-gap: 0;
