@@ -87,6 +87,9 @@ main {
      /* Make main element take up any surplus to push footer down */
      flex: 1 0 auto;
      margin-top: 47px;
+     /* Enable flex properties for child elements */
+     display: flex;
+     flex-direction: column;   
     }
 
     /* Hero */
@@ -117,6 +120,14 @@ main {
 
 /* Gallery Section */
 
+#background-image {
+    background: url(assets/images/background-image.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 .grid-container {
     display: grid;
     grid-template-columns: 200px 250px;
@@ -124,8 +135,6 @@ main {
     grid-row-gap: 5px;
     grid-column-gap: 20px;
     grid-template-areas: "header header";
-
-    
 
 }
 
@@ -148,6 +157,59 @@ main {
     line-height: 1em;
 }
 
+/* Sign Up */
+
+#sign-up {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+
+}
+
+main {
+    display: flex;
+    height: 100hv;
+    align-items: center;
+    background: linear-gradient(rgba (0,0,0,0.2)), url("background-image.png");
+    background-size: cover;
+}
+
+form {
+    margin-top: 50px;
+    text-align: center;
+}
+
+input {
+    display: block;
+    width: 350px;
+    height: 40px;
+    margin: 20px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    border-bottom: 1px solid black;
+    background: transparent;
+}
+
+button {
+    width: 350px;
+    height: 40px;
+    font-size: 20px;
+    background-color: rgb(23, 22, 22);
+    border: none;
+    color: #ffffff;
+    margin-top: 20px;
+}
+
+form h1 {
+    margin-bottom: 30px;
+    color: #ffffff;
+}
+
+::placeholder {
+    color: silver;
+}
 /* Footer */
 #social-networks {
     text-align: center;
@@ -350,8 +412,8 @@ main {
 
 
 #buttons {
-        color: rgb(56, 52, 43);
-        width: 100px;
+        color: rgb(23, 22, 22);
+        width: 350px;
         height: 50px;
         padding: 5px 10px;
         border: none;
@@ -374,7 +436,7 @@ main {
 }
 
 .btnbox buttons {
-    font-size: 5rem;
+    font-size: 20px;
 }
 
 
