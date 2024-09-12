@@ -14,6 +14,7 @@
   <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
     <!-- Stylesheet -->
   <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/signup.css">
 </head>
 <body>
     <!-- Header -->
@@ -35,19 +36,16 @@
     <!-- Main Content -->
     <main>
         <main id="memberform">
-        <form id="signUpForm">
+        <form action="success.html" method="GET" id="signUpForm">
             <h1>Sign Up</h1>
             <input type="text" name="" placeholder="Username">
             <input type="text" name="" placeholder="First Name">
             <input type="text" name="" placeholder="Last Name">
             <input type="email" name="" placeholder="Email">
-            <input type="password" name="" placeholder="Password">
-            <input type="password" name="" placeholder="Confirm Password">
+            <input required type="password" name="" placeholder="Password">
+            <input required type="password" name="" placeholder="Confirm Password">
             <button type="submit">Sign Up</button>
-            <div class="alert">
-                <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
-                Congratulations!
-              </div>
+          
         </form>
         
     </main>

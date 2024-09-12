@@ -1,0 +1,81 @@
+/* Sign Up */
+
+#signUpForm {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: url(../images/background-image.png);
+    background-size: 100%;
+}
+
+#memberform {
+    display: flex;
+    height: 100hv;
+    align-items: center;
+    justify-content: center;
+    padding-left: 50px;
+    
+}
+
+form {
+    margin-top: 50px;
+    text-align: center;
+}
+
+input {
+    display: block;
+    width: 250px;
+    height: 40px;
+    margin: 20px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    border-bottom: 1px solid black;
+    background: transparent;
+}
+
+button {
+    width: 350px;
+    height: 40px;
+    font-size: 20px;
+    background-color: rgb(14, 13, 13);
+    border: none;
+    color: #0d0d0d;
+    margin-top: 20px;
+}
+
+form h1 {
+    margin-bottom: 30px;
+    color: #252525;
+}
+
+::placeholder {
+    color: rgba(165, 176, 91, 0.778);
+}
+
+/* The alert message box */
+.alert {
+    padding: 20px;
+    background-color: #171716; /* Black */
+    color: rgb(249, 247, 247);
+    margin-bottom: 15px;
+    margin-top: 15px;
+  }
+  
+  /* The close button */
+  .closebtn {
+    margin-left: 15px;
+    color: rgb(251, 248, 248);
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+    block-size: 50%;
+  }
+  
+  /* When moving the mouse over the close button */
+  .closebtn:hover {
+    color: rgb(251, 248, 248);
+  }
