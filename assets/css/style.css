@@ -156,7 +156,7 @@ main {
 
 /* Sign Up */
 
-#sign-up {
+#signUpForm {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -166,7 +166,7 @@ main {
 
 }
 
-#signup {
+#memberform {
     display: flex;
     height: 100hv;
     align-items: center;
@@ -255,8 +255,14 @@ form h1 {
     justify-content: center;
     display: flex;
 }
-.newsletter {
-    background: #3a3a3a;
+.signUpFormInputField {
+    background: #bdb6b6;
+    background: cover;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 280px;
 }
 
 .email-box {
