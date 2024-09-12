@@ -1,0 +1,53 @@
+/* Google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+body {
+    text-align: center;
+    background: #EBF0F5;
+  }
+    h1 {
+      font-weight: 200;
+      font-size: 40px;
+      margin-bottom: 10px;
+      font-family: 'Oswald', sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      color: #252525;
+    }
+    p {
+      color: #404F5E;
+      font-family: "Nunito Sans", "Helvetica Neue", sans-serif;
+      font-size:20px;
+      margin: 0;
+    }
+
+
+  i {
+    color: #d56326;
+    font-size: 100px;
+    line-height: 200px;
+    margin-top: 50px;
+    margin-left: 30px;
+  }
+  .card {
+    background: white;
+    padding: 60px;
+    border-radius: 4px;
+    box-shadow: 0 2px 3px #C8D0D8;
+    display: inline-block;
+    margin: 130px auto;
+  }
+
+  header {
+    margin-top: auto;
+  }
+
+/* Media query: tablets and large (576 and up) */  
+@media screen and (min-width: 576px)
+  
+/* Media query: tablets and large (768 and up) */
+@media screen (min-width: 768px)
+
+/* Large devices (laptops and desktops, 992px and up) */
+@media screen and (min-width: 992px) 
+
+@media screen and (min-width: 1200px)
