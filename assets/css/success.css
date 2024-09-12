@@ -39,7 +39,7 @@ body {
 @media screen and (min-width: 576px)
   
 /* Media query: tablets and large (768 and up) */
-@media screen and (min-width: 768px)
+@media screen (min-width: 768px)
 
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) 
