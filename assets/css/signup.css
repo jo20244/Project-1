@@ -4,7 +4,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background: url(../images/background-image.png);
     background-size: 100%;
 }
 
@@ -24,7 +23,7 @@ form {
 
 input {
     display: flex;
-    width: 250px;
+    width: 500px;
     height: 40px;
     margin: 20px;
     border: none;
@@ -38,7 +37,7 @@ button {
     width: 350px;
     height: 40px;
     font-size: 20px;
-    background-color: rgb(14, 13, 13);
+    background-color: rgb(38, 37, 37);
     border: none;
     color: #fcfcfc;
     margin-top: 20px;
@@ -50,13 +49,14 @@ form h1 {
 }
 
 ::placeholder {
-    color: rgba(165, 176, 91, 0.778);
-}
+    color: rgba(5, 5, 5, 0.778);
+    opacity: 0.6;
+   }
 
 /* The alert message box */
 .alert {
     padding: 20px;
-    background-color: #171716; /* Black */
+    background-color: rgb(4, 4, 4); /* Black */
     color: rgb(249, 247, 247);
     margin-bottom: 15px;
     margin-top: 15px;
@@ -80,19 +80,25 @@ form h1 {
     color: rgb(251, 248, 248);
   }
 
-  * Media query: tablets and large (576 and up) */
-@media screen and (min-width: 576px) {
-    #photos {
-        column-count: 2;
-        column-gap: 0;
-    }
+  
+
+main {
+  background-color: rgb(255, 211, 169);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
-/* Media query: tablets and large (768 and up) */
-@media screen and (min-width: 768px)
+/* Media query: tablets and large (350 and up) */
+@@media screen and (min-width: 350px) {
+    main {
+      background: cover;
+      width: 100%;
+    }
 
-/* Large devices (laptops and desktops, 992px and up) */
-@media screen and (min-width: 992px) {
-    #menu a:hover{
-        border-bottom: 1px solid #3a3a3a;
- }
+    input {
+        align-items: center;
+    }
+  }
+    
+}
