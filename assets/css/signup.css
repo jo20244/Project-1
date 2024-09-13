@@ -88,17 +88,3 @@ main {
   background-attachment: fixed;
   background-size: cover;
 }
-
-/* Media query: tablets and large (350 and up) */
-@@media screen and (min-width: 350px) {
-    main {
-      background: cover;
-      width: 100%;
-    }
-
-    input {
-        align-items: center;
-    }
-  }
-    
-}
