@@ -14,13 +14,14 @@ body {
       text-transform: uppercase;
       letter-spacing: 4px;
       color: #252525;
+      font-size: 100%;
       
     }
 
-    p {
+    p #greet {
       color: #404F5E;
       font-family: "Nunito Sans", "Helvetica Neue", sans-serif;
-      font-size:20px;
+      font-size:40px;
       margin: 0;
     }
 
@@ -51,5 +52,7 @@ body {
   }
 
   @media screen and (min-width: 270px) {
-    font-size: calc(0.55em + 1vmin);
+    h1 #title, p #greet {
+    font-size: 50%;
+  }
   }
