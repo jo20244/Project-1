@@ -168,8 +168,7 @@ main {
     line-height: 20px;
     margin-bottom: 20px;
     flex-wrap: wrap;
-    flex-direction: column-reverse;
-    
+    flex-direction: column-reverse; 
     
 
 }
@@ -185,25 +184,6 @@ main {
     padding: 0 20px;
 }
 
-#circle-cover-bg {
-    background: url('../images/benefits-image.jpg') no-repeat top center / cover;
-    height: 30vw;
-    width: 30vw;
-    margin-bottom: 10px;
-    /* Makes the square picture into circle */
-
-    border-radius: 50%;
-    max-width: 300px;
-    max-height: 300px;
-    
-}
-
-#benefits-image {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
 #benefits-image2 {
     
         max-width: 250px;
@@ -212,6 +192,8 @@ main {
         clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
         transition: 1s;
         height: 200px;
+        display: flex;
+        flex-direction: row-reverse;
     }
 
     
@@ -228,6 +210,9 @@ main {
         clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
         transition: 1s;
         height: 200px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: baseline;
     
     }
     
@@ -238,27 +223,22 @@ main {
 
 
 #benefits-personally,
-#benefits-socially, #benefits-image {
+#benefits-socially {
     display: flex;
     flex-direction: row;
     justify-content: center;
     width: 100%;
 }
 
-#benefits-personally > div,
-#benefits-socially > div {
-    
-}
-
 #benefits-personally > div {
     text-align: start;
     align-self: flex-start;
-    width: 80%;
+    width: 100%;
 }
 
 #benefits-socially > div {
-    text-align: end;
-    align-self: flex-end;
+    text-align: start;
+    align-items: flex-start;
 }
 
 
@@ -285,14 +265,21 @@ main {
     display: flex;
     align-items: center;
     margin-bottom: 10px;
-    background-color: antiquewhite;
+    background-color: rgb(196, 141, 69);
+    border: 1px solid black;
+    color: black;
+}
+
+#button-gallery href {
+    display: none;
 }
 
 #button-newsletter {
     padding: 10px 24px;
     display: flex;
     align-items: center;
-    background-color: antiquewhite;
+    background-color: rgb(196, 141, 69);
+    border: 1px solid black;
 }
 
 
