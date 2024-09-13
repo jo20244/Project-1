@@ -264,6 +264,7 @@ main {
 }
 
 #benefits-image2 {
+    
         max-width: 250px;
         margin: 20px;
         -webkit-clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
@@ -271,6 +272,8 @@ main {
         transition: 1s;
         height: 200px;
     }
+
+    
     
     #benefits-image2:hover {
         -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
@@ -317,9 +320,9 @@ main {
     align-self: flex-end;
 }
 
+
+
 /* Buttons */
-
-
 
 .buttons-home-page {
         color: rgb(253, 251, 251);
@@ -328,11 +331,9 @@ main {
         justify-content: center;
         align-items: center;
         font-size: 20px;
-        
-        
-        
-    
+               
 }
+
 
 
 
