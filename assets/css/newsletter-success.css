@@ -4,7 +4,7 @@ body {
     text-align: center;
     padding: 40px 0;
     background: #EBF0F5;
-    font-size: calc(0.75em + 1vmin);
+    
   }
     h1 #title {
       font-weight: 200;
@@ -51,11 +51,17 @@ body {
 
   }
 
-  @media screen and (min-width: 576px and up) {
+  @media screen and (max-width: 576px) {
     h1 #title, p #greet {
-    font-size: 50%;
+    font-size: 30%;
   }
     .card {
       width: 100%;
+    }
+  }
+
+  @media screen and (min-width: 768px and up) {
+    h1 #title {
+      font-size: 20%;
     }
   }
