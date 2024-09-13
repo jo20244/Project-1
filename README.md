@@ -36,11 +36,12 @@ This is a simple website project with the following key pages:
 
 Access the website: Visit https://8000-jo20244-project1-3genadiwbn7.ws.codeinstitute-ide.net/ in your web browser.
 
-Usage
-Homepage: Navigate to the homepage to see general site information.
+## Usage
+
+Homepage: Navigate to the homepage to see general site information. You can scroll down the page to find the Gallery and Newsletter button leading you directly to those pages.  
 Gallery: Browse the gallery section for images or media.
-Signup: Create an account using the sign-up form.
-Newsletter: Subscribe to the newsletter via the subscription form.
+Signup: Create an account using the sign-up form. After submitting you will be led to a success page.
+Newsletter: Subscribe to the newsletter via the subscription form. After subscribing you will be led to a success page
 
 yourproject/
 │
@@ -49,24 +50,24 @@ yourproject/
 ├── signup.html           # Signup page
 ├── newsletter.html       # Newsletter page
 ├── css/
-│   └── styles.css
-│   └── gallery.css
-│   └── newsletter.css
-│   └── signup.css
-│   └── success.css
-│   └── newsletter-success.css
-├── images/               # Folder for images used in the gallery, homepage
+│   └── styles.css        # Styling file for Home and the main style of the full webpage
+│   └── gallery.css       # Styling file created to apply specific styling on Gallery so, that it does affect the other pages or the website
+│   └── newsletter.css    # Styling file created to apply specific styling on Newsletter so, that it does affect the other pages or the website
+│   └── signup.css        # Styling file created to apply specific styling on Signup so, that it does affect the other pages or the website
+│   └── success.css       # Styling file created to apply specific styling on Signup Success so, that it does affect the other pages or the website
+│   └── newsletter-success.css   # Styling file created to apply specific styling on Newsletter Success so, that it does affect the other pages or the website
+├── images/               # Folder for images used in the gallery, and homepage. Relative paths of this folder have been used on the Homepage and Gallery
 │   └── ...
 ├── README.md             # Project documentation
 
-Contributing
+## Contributing
 Feel free to contribute to this project by submitting issues or pull requests. Follow the standard GitHub flow for contributions:
 
-Fork the repository.
-Create a new branch (git checkout -b feature-branch).
-Commit your changes (git commit -m 'Add feature').
-Push to the branch (git push origin feature-branch).
-Open a pull request.
+1. Fork the repository.
+2. Create a new branch (git checkout -b feature-branch).
+3. Commit your changes (git commit -m 'Add feature').
+4. Push to the branch (git push origin feature-branch).
+5. Open a pull request.
 
 License
 This project is licensed under the Code Institute License. See the LICENSE file for more details.
