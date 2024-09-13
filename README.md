@@ -1,4 +1,9 @@
 # Website Name
+The History of Egypt
+
+## Introduction
+
+This is a website devoted to the amazing history of ancient Egypt. Its purpose it to create a club of people who would like to learn more about Egypt, travel with others for this purpose and contribute with their photos if they want.
 
 ## Overview
 
@@ -13,6 +18,7 @@ This is a simple website project with the following key pages:
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
+- [User Experience](#user-experience)
 - [File Structure](#file-structure)
 - [Contributing](#contributing)
 - [License](#license)
@@ -43,6 +49,19 @@ Gallery: Browse the gallery section for images or media.
 Signup: Create an account using the sign-up form. After submitting you will be led to a success page.
 Newsletter: Subscribe to the newsletter via the subscription form. After subscribing you will be led to a success page
 
+## User Experience
+
+1. First Time Visitor Goals
+I want to take part in an event online and improve my general knowledge.
+I want the site to be responsive to my device.
+I want the site to be easy to navigate.
+2. Returning Visitor Goal
+I want to be able to get news and events.
+3. Frequent Visitor Goals
+I want to be able to see my experiences published and contribute to the news.
+
+
+## File Structure
 yourproject/
 │
 ├── index.html            # Homepage
