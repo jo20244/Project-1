@@ -1,11 +1,12 @@
 # Website Name
 The History of Egypt
-![Project-1_Screeshots_of_Resolutions](https://github.com/user-attachments/assets/3918ffa8-461e-43f9-a74b-9908364165be)
+
 
 ## Introduction
 
-This is a website devoted to the amazing history of ancient Egypt. Its purpose it to create a club of people who would like to learn more about Egypt, travel with others for this purpose and contribute with their photos if they want.
+This is a website devoted to the amazing history of ancient Egypt. Its purpose is to create a club of people who would like to learn more about Egypt, travel with others for this purpose and contribute with their photos if they want.
 
+![Project-1_Screeshots_of_Resolutions](https://github.com/user-attachments/assets/3918ffa8-461e-43f9-a74b-9908364165be)
 ## Overview
 
 This is a simple website project with the following key pages:
