@@ -11,7 +11,7 @@ This is a simple website project with the following key pages:
 - **Homepage**: Provides information about the site.
 - **Gallery**: Displays images.
 - **Signup Page**: Allows users to sign up and create an account.
-- **Newsletter Page**: Lets users subscribe to receive regular updates and newsletters.
+- **Newsletter Page**: allows users to subscribe to regular updates and newsletters.
 
 ## Table of Contents
 - [Technologies Used](#technologies-used)
