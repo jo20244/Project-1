@@ -19,6 +19,7 @@ This is a simple website project with the following key pages:
 ## Table of Contents
 - [Technologies Used](#technologies-used)
 - [Features](#features)
+- [Testing](#testing)
 - [Bugs](#bugs)
 - [Validator Testing](#validator-testing)
 - [Unfixed Bugs](#unfixed-bugs)
@@ -40,13 +41,11 @@ This is a simple website project with the following key pages:
 - **Signup**: A form for users to register an account. All the fields apart from the "Username" are required. Once a user signs up, they will be led to a success page.
 - **Newsletter**: Subscription form for users to receive periodic emails. All the fields are required. Once a user subscribes, they will be led to a success page.
 
-## Installation
+##Testing
 
-1. **Clone the repository:**
-   ```bash
-   git clone gh repo clone jo20244/Project-1
-
-Access the website: Visit https://8000-jo20244-project1-3genadiwbn7.ws.codeinstitute-ide.net/ in your web browser.
+- I tested that this page works in Google browser.
+- I confirm that the navigation, header, gallery, sign up and newsletter text are readable and easy to understand.
+- I have confirmed that the forms work: require almost all fields, will only acceot an email in the email and submit buttons work.
 
 ## Usage
 
