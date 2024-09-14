@@ -94,7 +94,7 @@ main {
 #hero {
     height: 500px;
     width: 100%;
-    background: url("../images/painting-knight-with-sword-swords-it_1106493-348386.webp") no-repeat center center/cover;
+    background: url("../images/painting-knight-with-sword-swords-it_1106493-348386.webp") no-repeat center 25% /cover;
     position: relative;
 }
 
@@ -336,11 +336,19 @@ main {
 
 
 /* Large devices (laptops and desktops, 992px and up) */
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 992px and up) {
     #menu a:hover{
         border-bottom: 1px solid #3a3a3a;
  }
- @media screen and (min-width: 1200px) {    
+
+ #header {
+    height: 445px;
+    padding-top: 0;
+    padding-bottom: 0;
+    display: flex;
+    align-items: center;
+}
+ @media screen and (min-width: 1200px and up) {    
     /* Reasons section */
     #benefits {
         display: flex;
@@ -370,5 +378,8 @@ main {
 #photos {
     column-count: 4;
     column-gap: 0;
+}
+#header {
+    padding: 0 20px;
 }
 }
