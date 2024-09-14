@@ -19,12 +19,11 @@ This is a simple website project with the following key pages:
 ## Table of Contents
 - [Technologies Used](#technologies-used)
 - [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [User Experience](#user-experience)
-- [File Structure](#file-structure)
-- [Contributing](#contributing)
-- [License](#license)
+- [Bugs](#bugs)
+- [Validator Testing](#validator-testing)
+- [Unfixed Bugs](#unfixed-bugs)
+- [Deployment](#deployment)
+- [Credits](#credits)
 
 ## Technologies Used
 - HTML5
