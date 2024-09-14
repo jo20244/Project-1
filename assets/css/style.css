@@ -340,13 +340,6 @@ main {
     #menu a:hover{
         border-bottom: 1px solid #3a3a3a;
  }
-
- #header {
-    height: 445px;
-    padding-top: 0;
-    padding-bottom: 0;
-    display: flex;
-    align-items: center;
 }
  @media screen and (min-width: 1200px and up) {    
     /* Reasons section */
@@ -379,7 +372,4 @@ main {
     column-count: 4;
     column-gap: 0;
 }
-#header {
-    padding: 0 20px;
-}
-}
+
