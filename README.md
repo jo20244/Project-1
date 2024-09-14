@@ -41,29 +41,27 @@ This is a simple website project with the following key pages:
 - **Signup**: A form for users to register an account. All the fields apart from the "Username" are required. Once a user signs up, they will be led to a success page.
 - **Newsletter**: Subscription form for users to receive periodic emails. All the fields are required. Once a user subscribes, they will be led to a success page.
 
-##Testing
+## Testing
 
 - I tested that this page works in Google browser.
 - I confirm that the navigation, header, gallery, sign up and newsletter text are readable and easy to understand.
 - I have confirmed that the forms work: require almost all fields, will only acceot an email in the email and submit buttons work.
 
-## Usage
+## Bugs
 
-Homepage: Navigate to the homepage to see general site information. You can scroll down the page to find the Gallery and Newsletter button leading you directly to those pages.  
-Gallery: Browse the gallery section for images or media.
-Signup: Create an account using the sign-up form. After submitting you will be led to a success page.
-Newsletter: Subscribe to the newsletter via the subscription form. After subscribing you will be led to a success page
+**Solved Bugs**
+When I deployed mz project to GitHub Pages I discovered that not all the links were working, some pictures weren't in the right place and the webpage wasn't responsive for larger screens.
+- Regarding the links (Gallery and Newsletter buttons) I discovered that I had to change the page links to the links used in the index.html. Then they were working.
+- Regarding the responsive behavior of the pictures I had to change the padding and margins and use Flex-box properties. Now they are responsive.
 
-## User Experience
+## Validator Testing
 
-1. First Time Visitor Goals
-I want to take part in an event online and improve my general knowledge.
-I want the site to be responsive to my device.
-I want the site to be easy to navigate.
-2. Returning Visitor Goal
-I want to be able to get news and events.
-3. Frequent Visitor Goals
-I want to be able to see my experiences published and contribute to the news.
+1. HTML
+   No errors were returned when passing through the official W3C validator
+2. CSS
+   No errors were returned when passing through the official W3C validator
+3. Accessibility
+   I confirmed that the colors and fonts chosen are easy to read and accessible
 
 
 ## File Structure
@@ -84,18 +82,24 @@ yourproject/
 │   └── ...
 ├── README.md             # Project documentation
 
-## Contributing
-Feel free to contribute to this project by submitting issues or pull requests. Follow the standard GitHub flow for contributions:
+## Unfixed Bugs
 
-1. Fork the repository.
-2. Create a new branch (git checkout -b feature-branch).
-3. Commit your changes (git commit -m 'Add feature').
-4. Push to the branch (git push origin feature-branch).
-5. Open a pull request.
+No unfixed Bugs
 
-License
-This project is licensed under the Code Institute License. See the LICENSE file for more details.
+## Deployment
+ 
+The Webpage was deployed ro GitHub pages. The steps to deploy are as follows:
+1. In the GitHub repository, navigate to the Settings tab
+2. From the source section drop-down menu select Master Branch
+3. Once the master branch has been selected, the page provides the link to the completed website
 
+## Credits
+
+**Content**
+The code to make the social media links was taken from online free resources.
+
+**Media**
+The image in the header was taken from Freepik.
 
 This `README.md` file serves as a guide for anyone working on or using the website, detailing its structure, usage, and contribution guidelines. You can customize it based on the specifics of your project.
 
