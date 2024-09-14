@@ -7,6 +7,7 @@ The History of Egypt
 This is a website devoted to the amazing history of ancient Egypt. Its purpose is to create a club of people who would like to learn more about Egypt, travel with others for this purpose and contribute with their photos if they want.
 
 ![Project-1_Screeshots_of_Resolutions](https://github.com/user-attachments/assets/3918ffa8-461e-43f9-a74b-9908364165be)
+
 ## Overview
 
 This is a simple website project with the following key pages:
@@ -31,10 +32,14 @@ This is a simple website project with the following key pages:
 - Backend: Node.js / PHP / Python (depending on your stack)
 
 ## Features
+- **Navigation** :
+ Placed at the top of the page, the navigation shows the group name in the left corner: The History of Egypt which links to the homepage, everytime you wish to come back there. In the right corner of the page you will find the links to the rest of the pages of the website (Gallery, Sign Up and Contact). As well as find a "Home" Button that leads back to the homepage, for the people who are not so familiar with the internet.
 - **Homepage**: A user-friendly landing page introducing the site.
+  The header gives the names of museums, or places the club visits (they are customisable to fit the clients' needs).
+  Above the Footer two buttons, one for Gallery and another for Newsletter, are added. Their purpose is to guide the users to see the exciting things they will miss unless they join and also a shortcut for the Newsletter for those who are already informed about the club.
 - **Gallery**: Showcases a collection of images.
-- **Signup**: A form for users to register an account.
-- **Newsletter**: Subscription form for users to receive periodic emails.
+- **Signup**: A form for users to register an account. All the fields apart from the "Username" are required. Once a user signs up, they will be led to a success page.
+- **Newsletter**: Subscription form for users to receive periodic emails. All the fields are required. Once a user subscribes, they will be led to a success page.
 
 ## Installation
 
