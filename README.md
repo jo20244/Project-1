@@ -1,5 +1,6 @@
 # Website Name
 The History of Egypt
+![Project-1_Screeshots_of_Resolutions](https://github.com/user-attachments/assets/3918ffa8-461e-43f9-a74b-9908364165be)
 
 ## Introduction
 
